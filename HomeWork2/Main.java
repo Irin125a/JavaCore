@@ -25,12 +25,12 @@ public class Main {
 
         try {
             try {
-                System.out.println("Масив 1");
+                System.out.println("Массив 1");
                 int result1 = method(arr);
                 System.out.println(result1);
                 System.out.println("--------------------------");
             } catch (MyArraySizeException e) {
-                System.out.println("Чёт многовато...");
+                System.out.println("Что-то не так с массивом (мало/много значений)...");
                 System.out.println("--------------------------");
             }
         } catch (MyArrayDataException e) {
@@ -41,12 +41,12 @@ public class Main {
 
         try {
             try {
-                System.out.println("Масив 2");
+                System.out.println("Массив 2");
                 int result2 = method(otherSize);
                 System.out.println(result2);
                 System.out.println("--------------------------");
             } catch (MyArraySizeException e) {
-                System.out.println("Чёт многовато...");
+                System.out.println("Что-то не так с массивом (мало/много значений)...");
                 System.out.println("--------------------------");
             }
         } catch (MyArrayDataException e) {
@@ -57,12 +57,12 @@ public class Main {
 
         try {
             try {
-                System.out.println("Масив 3");
+                System.out.println("Массив 3");
                 int result3 = method(symbol);
                 System.out.println(result3);
                 System.out.println("--------------------------");
             } catch (MyArraySizeException e) {
-                System.out.println("Чёт многовато...");
+                System.out.println("Что-то не так с массивом (мало/много значений)...");
                 System.out.println("--------------------------");
             }
         } catch (MyArrayDataException e) {
